@@ -19,7 +19,7 @@ public class WebAuthConfiguration extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         logger.debug("Using default configure(HttpSecurity). If subclassed this will potentially override subclass configure(HttpSecurity).");
         // set url filter
-        http.authorizeRequests().antMatchers("/", "/user/**").permitAll()
+        http.authorizeRequests().antMatchers("/", "/user/**", "test/v1/*").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin().and()
