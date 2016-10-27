@@ -1,12 +1,12 @@
-package zyan.service;
+package alanjager.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import zyan.pojo.User;
-import zyan.repository.UserRepository;
+import alanjager.pojo.User;
+import alanjager.repository.UserRepository;
 
 /**
- * Created by zouye on 2016/10/20.
+ * Created by AlanJager on 2016/10/20.
  */
 @Service
 public class UserService {

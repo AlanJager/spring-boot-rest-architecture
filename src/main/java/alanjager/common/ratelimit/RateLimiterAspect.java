@@ -1,5 +1,5 @@
 // Created by AlanJager on 2016/10/27.
-package zyan.common.ratelimit;
+package alanjager.common.ratelimit;
 
 import com.google.common.base.Strings;
 import com.google.common.util.concurrent.RateLimiter;

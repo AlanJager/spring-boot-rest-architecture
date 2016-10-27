@@ -1,4 +1,4 @@
-package zyan.common.aspect;
+package alanjager.common.aspect;
 
 import org.apache.log4j.Logger;
 import org.aspectj.lang.JoinPoint;
@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Arrays;
 
 /**
- * Created by zouye on 2016/10/19.
+ * Created by AlanJager on 2016/10/19.
  */
 @Aspect
 @Component
@@ -22,7 +22,7 @@ public class WebLogAspect {
 
     ThreadLocal<Long> startTime = new ThreadLocal<Long>();
 
-    @Pointcut("execution(public * zyan..*.*(..))")
+    @Pointcut("execution(public * alanjager..*.*(..))")
     public void webLog(){}
 
     @Before("webLog()")

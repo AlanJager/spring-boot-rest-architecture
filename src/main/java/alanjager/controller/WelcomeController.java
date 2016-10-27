@@ -1,4 +1,4 @@
-package zyan.controller;
+package alanjager.controller;
 
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.stereotype.Controller;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * Created by zouye on 2016/10/19.
+ * Created by AlanJager on 2016/10/19.
  */
 @Controller
 @EnableConfigurationProperties

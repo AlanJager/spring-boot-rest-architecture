@@ -1,5 +1,5 @@
 // Created by AlanJager on 2016/10/27.
-package zyan.common.ratelimit;
+package alanjager.common.ratelimit;
 
 import java.lang.annotation.*;
 

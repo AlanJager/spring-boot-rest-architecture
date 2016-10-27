@@ -1,7 +1,7 @@
-package zyan.app;
+package alanjager.app;
 
 /**
- * Created by zouye on 2016/10/19.
+ * Created by AlanJager on 2016/10/19.
  */
 
 import org.springframework.boot.SpringApplication;
@@ -12,9 +12,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @Configuration
-@ComponentScan(basePackages = "zyan")
-@EntityScan(basePackages = "zyan.pojo")
-@EnableJpaRepositories(basePackages = "zyan.repository")
+@ComponentScan(basePackages = "alanjager")
+@EntityScan(basePackages = "alanjager.pojo")
+@EnableJpaRepositories(basePackages = "alanjager.repository")
 @EnableAutoConfiguration
 public class Application {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package zyan.controller;
+package alanjager.controller;
 
 /**
- * Created by zouye on 2016/10/19.
+ * Created by AlanJager on 2016/10/19.
  */
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,9 +10,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import zyan.common.ratelimit.RateLimit;
-import zyan.pojo.User;
-import zyan.service.UserService;
+import alanjager.common.ratelimit.RateLimit;
+import alanjager.pojo.User;
+import alanjager.service.UserService;
 
 @Controller
 @EnableConfigurationProperties

@@ -1,4 +1,4 @@
-package zyan.configure;
+package alanjager.configure;
 
 import org.apache.log4j.Logger;
 import org.springframework.context.annotation.Configuration;
@@ -8,7 +8,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
 /**
- * Created by zouye on 2016/10/19.
+ * Created by AlanJager on 2016/10/19.
  */
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 @Configuration

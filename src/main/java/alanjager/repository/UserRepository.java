@@ -1,7 +1,7 @@
-package zyan.repository;
+package alanjager.repository;
 
 /**
- * Created by zouye on 2016/10/19.
+ * Created by AlanJager on 2016/10/19.
  */
 
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-import zyan.pojo.User;
+import alanjager.pojo.User;
 
 import javax.persistence.Table;
 
