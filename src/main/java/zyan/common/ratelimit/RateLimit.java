@@ -1,10 +1,8 @@
+// Created by AlanJager on 2016/10/27.
 package zyan.common.ratelimit;
 
 import java.lang.annotation.*;
 
-/**
- * Created by zouye on 2016/10/27.
- */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented

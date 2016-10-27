@@ -1,4 +1,4 @@
-// Created by zouye on 2016/10/27.
+// Created by AlanJager on 2016/10/27.
 package zyan.common.ratelimit;
 
 import com.google.common.base.Strings;
