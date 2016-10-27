@@ -44,7 +44,7 @@ public class RateLimiterAspect {
         double delay = limiter.acquire();
         LOGGER.debug("Acquired rate limit permission ({} qps) for {} in {} seconds", limiter.getRate(), key, delay);
         // test information
-        // LOGGER.info("rate limit in working");
+        LOGGER.info("rate limit in working");
     }
 
     private Function<String, RateLimiter> createLimiter(RateLimit rateLimit)
