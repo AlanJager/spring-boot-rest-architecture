@@ -10,6 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import zyan.common.ratelimit.RateLimit;
 import zyan.pojo.User;
 import zyan.service.UserService;
 
@@ -19,6 +20,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    @RateLimit(5)
     @RequestMapping(value="/user/{id}")
     @ResponseBody
     public User getUserById(@PathVariable Long id){
