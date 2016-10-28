@@ -1,3 +1,4 @@
+// Created by AlanJager on 2016/10/19.
 package alanjager.common.log;
 
 import org.apache.log4j.Logger;
@@ -9,12 +10,11 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
+
 import javax.servlet.http.HttpServletRequest;
 import java.util.Arrays;
 
-/**
- * Created by AlanJager on 2016/10/19.
- */
+
 @Aspect
 @Component
 public class WebLogAspect {
@@ -22,7 +22,7 @@ public class WebLogAspect {
 
     ThreadLocal<Long> startTime = new ThreadLocal<Long>();
 
-    @Pointcut("execution(public * alanjager..*.*(..))")
+    @Pointcut("execution(public * alanjager.controller..*.*(..))")
     public void webLog(){}
 
     @Before("webLog()")
