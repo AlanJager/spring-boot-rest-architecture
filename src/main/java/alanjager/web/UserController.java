@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import alanjager.common.ratelimit.RateLimit;
-import alanjager.pojo.User;
+import alanjager.domain.User;
 import alanjager.service.UserService;
 
 @Controller

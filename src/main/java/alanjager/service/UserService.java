@@ -2,8 +2,8 @@ package alanjager.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import alanjager.pojo.User;
-import alanjager.repository.UserRepository;
+import alanjager.domain.User;
+import alanjager.domain.UserRepository;
 
 /**
  * Created by AlanJager on 2016/10/20.
