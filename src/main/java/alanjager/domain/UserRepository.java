@@ -1,4 +1,4 @@
-package alanjager.repository;
+package alanjager.domain;
 
 /**
  * Created by AlanJager on 2016/10/19.
@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-import alanjager.pojo.User;
+import alanjager.domain.User;
 
 import javax.persistence.Table;
 

@@ -1,4 +1,4 @@
-package alanjager.app;
+package alanjager;
 
 /**
  * Created by AlanJager on 2016/10/19.
@@ -14,7 +14,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @Configuration
 @ComponentScan(basePackages = "alanjager")
-@ServletComponentScan(basePackages = "alanjager.filter")
+@ServletComponentScan(basePackages = "alanjager.common.filter")
 @EntityScan(basePackages = "alanjager.pojo")
 @EnableJpaRepositories(basePackages = "alanjager.repository")
 @EnableAutoConfiguration

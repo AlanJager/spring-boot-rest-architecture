@@ -1,4 +1,4 @@
-package alanjager.pojo;
+package alanjager.domain;
 
 /**
  * Created by AlanJager on 2016/10/19.

@@ -1,4 +1,4 @@
-package alanjager.controller;
+package alanjager.web;
 
 /**
  * Created by AlanJager on 2016/10/19.

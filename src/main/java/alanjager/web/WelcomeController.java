@@ -1,4 +1,4 @@
-package alanjager.controller;
+package alanjager.web;
 
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.stereotype.Controller;

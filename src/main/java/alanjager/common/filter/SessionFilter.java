@@ -1,5 +1,5 @@
 // Created by AlanJager on 2016/10/28.
-package alanjager.filter;
+package alanjager.common.filter;
 
 import org.apache.log4j.Logger;
 
