@@ -2,8 +2,7 @@ package alanjager.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import java.security.Principal;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * Created by zouye on 2016/10/31.
@@ -11,9 +10,17 @@ import java.security.Principal;
 @Controller
 @RequestMapping("/oauth")
 public class oauth2Controller {
-    @RequestMapping("/user")
-    public Principal user(Principal principal)
+    @RequestMapping("/github")
+    @ResponseBody
+    public Object oauth2github()
     {
-        return principal;
+        return null;
+    }
+
+    @RequestMapping("/facebook")
+    @ResponseBody
+    public Object oauth2facebool()
+    {
+        return null;
     }
 }

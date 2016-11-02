@@ -1,8 +1,7 @@
+// Created by AlanJager on 2016/10/19.
 package alanjager;
 
-/**
- * Created by AlanJager on 2016/10/19.
- */
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

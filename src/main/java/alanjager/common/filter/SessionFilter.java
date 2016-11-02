@@ -2,11 +2,13 @@
 package alanjager.common.filter;
 
 import org.apache.log4j.Logger;
+import org.springframework.core.annotation.Order;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
+@Order(3)
 @WebFilter(filterName = "SessionFilter", urlPatterns = "/*")
 public class SessionFilter implements Filter {
     private Logger logger = Logger.getLogger(getClass());
