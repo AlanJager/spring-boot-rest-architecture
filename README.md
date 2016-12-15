@@ -1,12 +1,3 @@
-
-
-
-
-
-Category construct
-
-
-      
 # spring-boot-rest-architecture
 ===============
 
@@ -17,7 +8,9 @@ Use hibernate for persistence layer.
 Building
 --------
 
-Type `mvn package` in the project root. And use java -jar "your.jar" to run the project
+Type `mvn package` in the project root.  
+
+And use java -jar "your.jar" to run the project.  
 
 TODO
 ----
