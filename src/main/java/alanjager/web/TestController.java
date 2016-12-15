@@ -1,5 +1,8 @@
 package alanjager.web;
 
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,6 +18,10 @@ import java.util.Map;
 @RequestMapping(value = "test/v1")
 public class TestController {
     @RequestMapping(value = "/create", method = RequestMethod.GET)
+    @ApiOperation(value = "Create new Landlord", notes = "Creates new Landlord")
+    @ApiResponses(value = {
+            @ApiResponse(code = 400, message = "Fields are with validation errors"),
+            @ApiResponse(code = 201, message = "") })
     public Map<String, Object> firstRes (HttpServletRequest request)
     {
         Map<String, Object> map = new HashMap<>();
