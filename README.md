@@ -1,6 +1,7 @@
 # spring-boot-rest-architecture
 ===============   
-A web service architecture offer rest API.  
+
+A web service architecture offer rest API.  
 
 Based on Spring boot.  
 
