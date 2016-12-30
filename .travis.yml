@@ -9,3 +9,5 @@ script: java -jar target/sbra-1.0-SNAPSHOT.jar
 before_script: 
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
   - mvn package
+  
+install: travis_wait mvn install  
