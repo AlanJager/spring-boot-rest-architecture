@@ -2,7 +2,8 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ebb41d89cdcd420e82683e1cbdba29f5)](https://www.codacy.com/app/873863981/spring-boot-rest-architecture?utm_source=github.com&utm_medium=referral&utm_content=AlanJager/spring-boot-rest-architecture&utm_campaign=badger)
 
-===============================  
+
+[![Build Status](https://travis-ci.org/AlanJager/spring-boot-rest-architecture.svg?branch=master)](https://travis-ci.org/AlanJager/spring-boot-rest-architecture)[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ebb41d89cdcd420e82683e1cbdba29f5)](https://www.codacy.com/app/873863981/spring-boot-rest-architecture?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AlanJager/spring-boot-rest-architecture&amp;utm_campaign=Badge_Grade)
 
 A web service architecture offer rest API.  
 
