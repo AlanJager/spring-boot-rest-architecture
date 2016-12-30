@@ -1,0 +1,9 @@
+language: java
+jdk:
+  - oraclejdk8
+services:
+  - mongodb
+  - redis
+sudo: required
+script: mvn package
+before_script: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
