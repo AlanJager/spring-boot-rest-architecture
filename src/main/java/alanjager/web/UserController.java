@@ -9,6 +9,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import alanjager.common.ratelimit.RateLimit;
 import alanjager.domain.User;
@@ -21,13 +22,13 @@ public class UserController {
     private UserService userService;
 
     @RateLimit(5)
-    @RequestMapping(value="/user/{id}")
+    @RequestMapping(value="/user/{id}", method = RequestMethod.GET)
     @ResponseBody
     public User getUserById(@PathVariable Long id){
         return userService.findUserById(id);
     }
 
-    @RequestMapping(value="/user/name/{name}")
+    @RequestMapping(value="/user/name/{name}", method = RequestMethod.GET)
     @ResponseBody
     public User findUserByName(@PathVariable String name){
         return userService.findUserByName(name);

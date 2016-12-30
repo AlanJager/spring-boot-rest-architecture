@@ -2,6 +2,7 @@ package alanjager.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
@@ -10,14 +11,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("/oauth")
 public class oauth2Controller {
-    @RequestMapping("/github")
+    @RequestMapping(value = "/github", method = RequestMethod.GET)
     @ResponseBody
     public Object oauth2github()
     {
         return null;
     }
 
-    @RequestMapping("/facebook")
+    @RequestMapping(value = "/facebook", method = RequestMethod.GET)
     @ResponseBody
     public Object oauth2facebool()
     {
