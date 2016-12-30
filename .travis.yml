@@ -5,5 +5,7 @@ services:
   - mongodb
   - redis
 sudo: required
-script: mvn package
-before_script: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+script: java -jar target/sbra-1.0-SNAPSHOT.jar
+before_script: 
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+  - mvn package
